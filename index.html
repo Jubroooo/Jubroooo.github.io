@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Ju Hyoung Portfolio</title>
+    <style>
+        a {color: black; text-decoration: none; outline: none}
+        a:hover, a:active {text-decoration: none; color:black; background-color:skyblue;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+
+        section > h2{
+            font-weight: bold;
+            border-bottom: 2px solid #ddd;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .portfolio-item h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .intro {
+            display: flex;
+            align-items: center;
+        }
+        
+        .intro-left {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .intro-right {
+            flex: 2;
+            margin-right: 50px;
+        }
+        
+        .intro img {
+            max-width: 200px;
+            margin: 20px;
+        }
+        
+        .subtitle {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .name{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lee Ju Hyoung Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#Introduction">Introduction</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="Introduction">
+        <h2>Introduction</h2>
+        <div class="intro">
+            <div class="intro-left">
+                <div class="name">Lee Ju Hyoung</div>
+                <img src="./images/이주형 증명사진.jpg" alt="">
+            </div>
+            <div class="intro-right">
+                <div class="subtitle">About</div>
+                <p>20학번 이주형입니다. 화학과 원전공에 코딩도 관심이 많아 소프트웨어학과를 복수전공하고 있습니다.
+                    “기회가 있을때 잡아라”라는 좌우명 하에 도전하고 활동하는 것을 좋아합니다. 따라서 학교의 여러 단체와 동아리 활동을 하였으며, 비교과 프로그램에도 많이 참여를 했습니다. </p>
+                <div class="subtitle">Skills</div>
+                <table>
+                    <tr>
+                        <td>C언어</td>                        
+                        <td>🟦🟦🟦⏹️⏹️</td>
+                    </tr>
+                    <tr>
+                        <td>Unity</td>
+                        <td>🟦🟦🟦⏹️⏹️</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>🟦🟦🟦⏹️⏹️</td>
+                    </tr>
+                </table>
+                <div class="subtitle">Education</div>
+                <p>
+                    <ul>SKKU South Korea</ul>
+                    <ul>B.S. Chemistry 2020 ~</ul>
+                    <ul>B.S. Computer Science 2021 ~</ul>
+                </p>
+                <div class="subtitle">Achevements & Certifications</div>
+                <li>ADSP</li>
+                <li>Natural science Dean's Honor 2023-2</li>
+                <li>Hult Prize on campus - 2nd runner</li>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Project</h2>
+        <div class="portfolio-item">
+            <h3>Jumppy Slime(Android)</h3>
+            <p>Unity를 사용하여 android 게임인 Jumppy slime을 개발, 배포 하였습니다.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.JuBro.JumppySlime">➡️Play Store</a>
+        </div>
+        <div class="portfolio-item">
+            <h3>Best Birthday</h3>
+            <p>생일선물 펀딩 사이트 Best Birthday를 팀원들과 함께 만들었습니다.</p>
+            <a href="https://github.com/Jubroooo/BestBirthday">➡️최고의 생일을 위한 생일축하 펀딩 서비스</a>
+        </div>
+        <div class="portfolio-item">
+            <h3>MBTI 학과 추천 프로그램</h3>
+            <p>1학년 문제해결과 알고리즘 과목에서 MBTI 검사를 통한 학과 추천 프로그램을 만들었습니다.</p>
+            <a href="https://jubrodev.tistory.com/20">➡️Python MBTI</a>
+        </div>
+
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <li>Email : ljh465921@naver.com</li>
+        <li><a href="https://github.com/Jubroooo">Git Hub</a></li>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jubro Portfolio</p>
+    </footer>
+</body>
+</html>
