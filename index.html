@@ -1,186 +1,671 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lee Ju Hyoung Portfolio</title>
-    <style>
-        a {color: black; text-decoration: none; outline: none}
-        a:hover, a:active {text-decoration: none; color:black; background-color:skyblue;}
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f3f3f3;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-        }
+	<title>열정맨 이주형</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        section > h2{
-            font-weight: bold;
-            border-bottom: 2px solid #ddd;
-        }
-        .portfolio-item {
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            padding: 10px;
-        }
-        .portfolio-item h2 {
-            margin-top: 0;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .intro {
-            display: flex;
-            align-items: center;
-        }
-        
-        .intro-left {
-            flex: 1;
-            text-align: center;
-        }
-        
-        .intro-right {
-            flex: 2;
-            margin-right: 50px;
-        }
-        
-        .intro img {
-            max-width: 200px;
-            margin: 20px;
-        }
-        
-        .subtitle {
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .name{
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        
-        th, td {
-            padding: 10px;
-        }
-        
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        ul li {
-            margin-bottom: 5px;
-        }
-    </style>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/58c2c0b06e.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <h1>Lee Ju Hyoung Portfolio</h1>
-    </header>
-    <nav>
-        <a href="#Introduction">Introduction</a>
-        <a href="#projects">Project</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="Introduction">
-        <h2>Introduction</h2>
-        <div class="intro">
-            <div class="intro-left">
-                <div class="name">Lee Ju Hyoung</div>
-                <img src="./images/이주형 증명사진.jpg" alt="">
-            </div>
-            <div class="intro-right">
-                <div class="subtitle">About</div>
-                <p>20학번 이주형입니다. 화학과 원전공에 코딩도 관심이 많아 소프트웨어학과를 복수전공하고 있습니다.
-                    “기회가 있을때 잡아라”라는 좌우명 하에 도전하고 활동하는 것을 좋아합니다. 따라서 학교의 여러 단체와 동아리 활동을 하였으며, 비교과 프로그램에도 많이 참여를 했습니다. </p>
-                <div class="subtitle">Skills</div>
-                <table>
-                    <tr>
-                        <td>C언어</td>                        
-                        <td>🟦🟦🟦⏹️⏹️</td>
-                    </tr>
-                    <tr>
-                        <td>Unity</td>
-                        <td>🟦🟦🟦⏹️⏹️</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td>🟦🟦🟦⏹️⏹️</td>
-                    </tr>
-                </table>
-                <div class="subtitle">Education</div>
-                <p>
-                    <ul>SKKU South Korea</ul>
-                    <ul>B.S. Chemistry 2020 ~</ul>
-                    <ul>B.S. Computer Science 2021 ~</ul>
-                </p>
-                <div class="subtitle">Achevements & Certifications</div>
-                <li>ADSP</li>
-                <li>Natural science Dean's Honor 2023-2</li>
-                <li>Hult Prize on campus - 2nd runner</li>
-            </div>
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Project</h2>
-        <div class="portfolio-item">
-            <h3>Jumppy Slime(Android)</h3>
-            <p>Unity를 사용하여 android 게임인 Jumppy slime을 개발, 배포 하였습니다.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.JuBro.JumppySlime">➡️Play Store</a>
-        </div>
-        <div class="portfolio-item">
-            <h3>Best Birthday</h3>
-            <p>생일선물 펀딩 사이트 Best Birthday를 팀원들과 함께 만들었습니다.</p>
-            <a href="https://github.com/Jubroooo/BestBirthday">➡️최고의 생일을 위한 생일축하 펀딩 서비스</a>
-        </div>
-        <div class="portfolio-item">
-            <h3>MBTI 학과 추천 프로그램</h3>
-            <p>1학년 문제해결과 알고리즘 과목에서 MBTI 검사를 통한 학과 추천 프로그램을 만들었습니다.</p>
-            <a href="https://jubrodev.tistory.com/20">➡️Python MBTI</a>
-        </div>
 
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <li>Email : ljh465921@naver.com</li>
-        <li><a href="https://github.com/Jubroooo">Git Hub</a></li>
-    </section>
-    <footer>
-        <p>&copy; 2024 Jubro Portfolio</p>
-    </footer>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><span>L </span>eeJuHyoung</a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#education-section" class="nav-link"><span>Education</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#side-projects-section" class="nav-link"><span>Side
+								Projects</span></a>
+					</li>
+					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Road Map</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+					<div class="text text-center">
+						<span class="subheading">Hello! I am</span>
+						<h1>이주형</h1>
+						<h2>I'm a
+							<span class="txt-rotate" data-period="500"
+								data-rotate='[  "열정열정맨", "데이터 분석가", "반도체 화학 엔지니어"]'></span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mouse">
+			<a href="#" class="mouse-icon">
+				<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+			</a>
+		</div>
+	</section>
+
+	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-6 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(images/about.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+					<div class="row justify-content-start pb-3">
+						<div class="col-md-12 heading-section ftco-animate">
+							<h1 class="big">About</h1>
+							<h2 class="mb-4">About Me</h2>
+							<p class="univ">
+								<span>SUNGKYUNKWAN UNIVERSITY(SKKU)</span>
+							</p>						
+							<p>이것 저것 열정있게 도전하는 열정맨, 이주형입니다. 현재 반도체 기술에 관심이 많아 차세대 반도체 연계전공을 이수하며 전문성을 길러나가고 있습니다.</p>
+							<ul class="about-info mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span> <span>이주형</span></li>
+								<li class="d-flex"><span>MBTI:</span> <span>ENFJ</span></li>
+								<li class="d-flex"><span>Address:</span> <span>경기도 안양시 동안구</span></li>
+								<li class="d-flex"><span>Email:</span> <span>ljh465921@naver.com</span></li>
+								<li class="d-flex"><span>Phone: </span> <span>+82-10-2513-6233</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="counter-wrap ftco-animate d-flex mt-md-3 gap">
+						<div class="text">
+							<p><a target="_blank"
+									href="https://drive.google.com/file/d/1-oCWrURnpdtvAfMDbLJaIXz6fVsjWM9i/view?usp=sharing"
+									class="btn btn-primary py-3 px-3">이력서 다운받기</a></p>
+						</div>
+						<div class="text">
+							<p><a href="images/ADSP.png" class="btn btn-primary py-3 px-3 image-popup"><i class="fa-solid fa-chart-column"></i></a></p>
+						</div>
+						<div class="text">
+							<p><a href="images/opic.png" class="btn btn-primary py-3 px-3 image-popup"><i class="fa-solid fa-globe"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container-fluid px-md-5">
+			<div class="row d-md-flex align-items-center">
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<div class="text">
+							<strong class="number" data-number="5">0</strong>
+							<span>이수 학기</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<a href="images/이수학점.png" class="image-popup">
+							<div class="text">
+								<strong class="number" data-number="102">0</strong>
+								<span>이수 학점</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<a href="images/평점평균.png" class="image-popup">
+							<div class="text">
+								<strong class="number grade" data-number="4.27">0</strong>
+								<span>평균 평점</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 shadow">
+						<a href="images/비교과_이수증명서.jpg" class="image-popup">
+							<div class="text">
+								<strong class="number" data-number="254">0</strong>
+								<span>비교과 프로그램 이수</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<nav id="navi">
+						<ul>
+							<li><a href="#page-1">Education</a></li>
+							<li><a href="#page-2">Experience</a></li>
+							<li><a href="#page-3">Skills</a></li>
+							<li><a href="#page-4">Projects</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-9" id="education-section">
+					<div id="page-1" class="page one">
+						<h2 class="heading">Education</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-flask-vial"></i>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2021 ~ now</span>
+								<h2>화학 전공</h2>
+								<span class="position">Chemistry</span>
+								<p>학창시절부터 세상 모든 것을 이루는 원자가 정말 흥미로워서,이를 다루는 화학과가 참 매력적이었습니다. 그래서 성균관대학교에 진학 후 화학과를 선택하게 되었습니다.</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-computer"></i>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2022 ~ now</span>
+								<h2>소프트웨어학과 부전공</h2>
+								<span class="position">Software</span>
+								<p>프로그래밍에 관심을 가져 소프트웨어학과를 부전공 하게 되었습니다. 교내 중앙동아리, 연합동아리 코딩 동아리 활동도 하며 게임, 웹사이트 등의 서비스를 만드는 경험도 해 나갔습니다.</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-microchip"></i>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2024 ~ now</span>
+								<h2>차세대 반도체 연계전공</h2>
+								<span class="position">Advanced Semiconductor Engineering</span>
+								<p>화학과에서 소자를 공부하다가, 반도체 디바이스에 관심을 가지게 되었고 원전공인 화학적 지식을 융합할 수 있는 반도체 화학 엔지니어가 되고자 차세대 반도체 연계전공을 같이 공부하여 전문성을 기르기로 다짐하였습니다.</p>
+							</div>
+						</div>
+					</div>
+
+					<div id="page-2" class="page two">
+						<h2 class="heading d-flex align-items-center">
+							<div>Work Experience </div>
+							<div>&nbsp;
+								<a href="images/학생활동1.jpg" class="btn btn-outline-secondary image-popup-gallery5" data-group="gallery5"><i class="fa-solid fa-arrow-right" id="arrow"></i></a>
+								<a href="images/학생활동2.jpg" class="image-popup-gallery5" data-group="gallery5" style="display:none;"></a>
+							</div>
+						</h2>
+						
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center ga gallery">
+								<a href="images/FG1.jpg" class="image-popup-gallery1" data-group="gallery1"><i class="fa-regular fa-image"></i></a>
+								<a href="images/FG2.jpg" class="image-popup-gallery1" data-group="gallery1" style="display:none;"></a>
+								<a href="images/FG3.jpg" class="image-popup-gallery1" data-group="gallery1" style="display:none;"></a>
+								<a href="images/FG4.jpg" class="image-popup-gallery1" data-group="gallery1" style="display:none;"></a>
+								<a href="images/FG5.jpg" class="image-popup-gallery1" data-group="gallery1" style="display:none;"></a>
+								<a href="images/FG6.jpg" class="image-popup-gallery1" data-group="gallery1" style="display:none;"></a>								
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020.06-2021.06 (1년)</span>
+								<h2>활동계획팀 팀원</h2>
+								<span class="position">Freshman Guide</span>
+								<p>새내기 관리 학생단체<br /></p>
+								<b class="text-primary">주요 업무 </b>
+								<div>
+									<div> - FG 홍보 시나리오 작성 및 감독</div>
+									<div> - 2021년도 새내기 팀빌딩 오리엔테이션 진행</div>
+									<div> - 새내기 커뮤니티 LC06, 37, 68 담당</div>
+								</div>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center ga gallery">
+								<a href="images/화학과1.jpg" class="image-popup-gallery2" data-group="gallery2"><i class="fa-regular fa-image"></i></a>
+								<a href="images/화학과2.jpg" class="image-popup-gallery2" data-group="gallery2" style="display:none;"></a>
+								<a href="images/화학과3.jpg" class="image-popup-gallery2" data-group="gallery2" style="display:none;"></a>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2020.06-now (4년 3개월)</span>
+								<h2>기획총무부 차장, 부원</h2>
+								<span class="position">화학과 학생회</span>
+								<p>제 30,31,32,34대 화학과 학생회<br /></p>
+								<b class="text-primary">주요 업무 </b>
+								<div>
+									<div> - 21학년도 1학기 온라인 화학캠프 진행</div>
+									<div> - 화학과 사물함, 열람실 관리</div>
+									<div> - 간식 배부 사업</div>
+								</div>
+								</p>
+							</div>							
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center ga gallery">
+								<a href="images/comit.jpg" class="image-popup-gallery3" data-group="gallery3"><i class="fa-regular fa-image"></i></a>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2023.03-2024.07 (1년 4개월)</span>
+								<h2>기획팀장</h2>
+								<span class="position">COMIT</span>
+								<p>성균관대학교 코딩 중앙 동아리<br /></p>
+								<b class="text-primary">주요 업무 </b>
+								<div>
+									<div> - 스터디 활동 및 참가 - C언어 중급반</div>
+									<div> - 엠티, 회식 등 행사 기획</div>
+									<div> - 2023-2학기 에스카라 주점 행사 진행</div>
+								</div>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center ga gallery">
+								<a href="images/자과대1.jpg" class="image-popup-gallery4" data-group="gallery4"><i class="fa-regular fa-image"></i></a>
+								<a href="images/자과대2.jpg" class="image-popup-gallery4" data-group="gallery4" style="display:none;"></a>
+								<a href="images/자과대3.jpg" class="image-popup-gallery4" data-group="gallery4" style="display:none;"></a>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2023.08-now (1년 2개월)</span>
+								<h2>정책기획국 국원</h2>
+								<span class="position">자연과학대학 학생회</span>
+								<p>제 39대, 40대 자연과학대학 학생회<br /></p>
+								<b class="text-primary">주요 업무 </b>
+								<div>
+									<div> - 2024학년도 새내기 배움터 스태프 진행</div>
+									<div> - 자과인의 날 스태프 진행</div>
+									<div> - 물품대여 사업 진행</div>
+								</div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div id="page-3" class="page three">
+						<h2 class="heading">Skills</h2>
+						<div class="row mb-5">
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">학생역량</h2>
+									<div><img src="images/학생역량.png" alt=""></div>
+									
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">봉사시간</h2>
+									<div><img src="images/봉사활동.png" alt=""></div>								
+								</div>
+							</div>
+
+							<div class="col-lg-4 mb-4">
+								<div class="bg-white rounded-lg shadow p-4">
+									<h2 class="h5 font-weight-bold text-center mb-4">비교과 프로그램</h2>
+									<div><img src="images/비교과_프로그램.png" alt=""></div>									
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Excel</h3>
+									<div class="progress">
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+											aria-valuemin="0" aria-valuemax="100" style="width:90%">
+											<span>90%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Python</h3>
+									<div class="progress">
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+											aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											<span>85%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>Hwp</h3>
+									<div class="progress">
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+											aria-valuemin="0" aria-valuemax="100" style="width:95%">
+											<span>95%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
+									<h3>C/C++</h3>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="75"
+											aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>75%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="page-4" class="page four">
+						<h2 id="projects-section" class="heading">Projects</h2>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="text pl-3">
+								<span class="date">2022.11.01-2023.08.17</span>
+								<div class="d-flex">
+									<h2>19회 융합기초 프로젝트</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"href="https://jubrodev.tistory.com/19">Link</a>
+									</div>
+								</div>
+								<span class="position">대학혁신과 공유센터</span>
+								<div> <b class="text-dark">작업 영역 : </b>#창의력, #기업가 정신, #스타트업</div>
+								<div> <b class="text-dark">주요 역할 : </b> 팀장으로써 전체 계획 기획 및 감독, 핵심 기술인 요약 머신러닝 개발 및 앱 프로토타입 제작 </div>
+								<div> <b class="text-dark">성과 : </b>대학생활 팀플생활기록부 '게더' 서비스 프로토타입 런칭 </div>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="text pl-3">
+								<span class="date">2023.8.22-2023.08.23</span>
+								<div class="d-flex">
+									<h2>2023 창조스쿨 프로그램</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"href="https://nosy-ceres-298.notion.site/2023-075a94596f3e4348a497234be6058f58?pvs=4">Link</a>
+									</div>
+								</div>
+								<span class="position">대학혁신과 공유센터</span>
+								<div> <b class="text-dark">작업 영역 : </b>#창의력, #기업가 정신, #아이디어톤</div>
+								<div> <b class="text-dark">주요 역할 : </b> 팀장으로 활동하며 융합기초 프로젝트의 경험을 살려 아이디어 디벨롭 </div>
+								<div> <b class="text-dark">성과 : </b>주제인 '자전거'에 맞는 실내 자전거 카페 아이디어 도출 </div>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="text pl-3">
+								<span class="date">2023.12.20-2024.01.23</span>
+								<div class="d-flex">
+									<h2>성균공부방 11기</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"href="https://nosy-ceres-298.notion.site/11-20c69960158b4c09bd0c801599ce55aa?pvs=4">Link</a>
+									</div>
+								</div>
+								<span class="position">교육개발센터</span>
+								<div> <b class="text-dark">작업 영역 : </b>#스터디, #머신러닝</div>
+								<div> <b class="text-dark">주요 역할 : </b> 개발동아리 팀원들과 겨울방학 기간동안 머신러닝을 공부하였다. </div>
+								<div> <b class="text-dark">성과 : </b>Principle of machine learning with python progratmming 이수 </div>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="text pl-3">
+								<span class="date">2024.01.16</span>
+								<div class="d-flex">
+									<h2>자연과학대학 Dean's Honor</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"href="https://nosy-ceres-298.notion.site/Dean-s-Honor-eba04f9233e246b3a59be3a53299efea?pvs=4">Link</a>
+									</div>
+								</div>
+								<span class="position">자연과학대학</span>
+								<div> <b class="text-dark">작업 영역 : </b>#학생성공</div>
+								<div> <b class="text-dark">성과 : </b> 학업을 열심히 할 뿐더러, 여러 활동을 열심히 해 학생성공의 표본이 되어 2023 dean's honor에 선정되었다. </div>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="text pl-3">
+								<span class="date">2023.12.14-2024.02.09</span>
+								<div class="d-flex">
+									<h2>글로벌(국제어수업),융합(URP)교육 우수사례 공모전</h2>
+									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"href="https://nosy-ceres-298.notion.site/URP-b36df47806b44a3aa18e1040e1676db9?pvs=4">Link</a>
+									</div>
+								</div>
+								<span class="position">교무처 교육팀</span>
+								<div> <b class="text-dark">작업 영역 : </b>#창의력, #포트폴리오</div>
+								<div> <b class="text-dark">주요 역할 : </b> 융합기초 프로젝트에서 느끼고 배웠던 것들을 에세이와 영상으로 정리해냈다. </div>
+								<div> <b class="text-dark">성과 : </b>최우수상 수상 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section ftco-project">
+		<div class="container-fluid px-md-0">
+			<div class="row no-gutters justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 id="side-projects-section" class="mb-4">Side Projects</h2>
+					<p>꾸준히 교내⋅외 사이드 프로젝트를 진행하며, 다양한 분야의 기술 스택을 경험해왔습니다.</p>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/side1.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a target="_blank" href="https://jubrodev.tistory.com/20"> MBTI별 학과 추천 프로그램</a></h3>
+							<span>Python turtle module을 활용해 MBTI 검사 및 학과 추천 프로그램을 제작하였습니다.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/side2.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://jubrodev.tistory.com/6">게임개발</a></h3>
+							<span>C언어를 사용해 간단한 비행 게임 및 Unity를 사용해 안드로이드 앱 게임을 개발해 봤습니다.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/side3.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://jubrodev.tistory.com/27">코드잇 앰버서더 1기 활동</a></h3>
+							<span>국내 코딩교육 사이트 '코드잇'의 1기 엠버서더로 활동하고, 우수 엠버서더로 선정되었습니다.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/side4.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a target="_blank" href="https://github.com/RightPapers"> 가짜뉴스 판별 서비스 </a></h3>
+							<span>가짜뉴스 판별 서비스인 "right paper" 에서 백엔드를 담당해 언어모델과 연결하며 API를 구성했습니다.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/side5.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://jubrodev.tistory.com/m/36">피로그래밍 20기 활동</a></h3>
+							<span>생일선물 펀딩 서비스인 "Best Birthday" 팀장을 맡으며 백엔드를 담당했고, 웹 서비스를 런칭했습니다.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center"
+						style="background-image: url(images/우수학부생.png);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="#">2024 여름학기 우수학부연구생</a></h3>
+							<span>나노공정연구실에서 QLED 소자 효율 향상을 위한 ETL Dopant 연구를 하였습니다.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section" id="blog-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Road Map</h1>
+					<h2 class="mb-4">My Road Map</h2>
+					<p>복수전공을 많이 하여 다양한 학과의 수업을 듣는 만큼,<br> 저만의 전공 로드맵을 기획했습니다.</p>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="d-flex ftco-animate">
+					<div class="blog-entry">
+						<div class="d-flex justify-content-center align-items-center"><img src="images/roadmap.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.png)" id="contact-section">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>함께할 <span>회사를 찾는 중</span> 입니다.</h2>
+					<p>회사와 함께 성장하는 반도체 엔지니어가 되겠습니다. 연락주세요.</p>
+					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Contact Me</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb">
+		<div class="container">
+			<div class="row d-flex contact-info mb-5">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-map-signs"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Address</h3>
+							<p><a href="https://maps.app.goo.gl/JQGEj14XsywLnwGn7">경기도 안양시 동안구</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-phone2"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Contact Number</h3>
+							<p><a href="tel://01025136233">+82 010 2513 6233</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span class="icon-paper-plane"></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Email Address</h3>
+							<p><a href="mailto:ljh06050605@gmail.com">ljh06050605@gmail.com</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box text-center p-4 shadow">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0,0,250,250">
+									<g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+									</svg></span>
+						</div>
+						<div>
+							<h3 class="mb-4">Instagram</h3>
+							<p><a href="https://www.instagram.com/ju_bro_0605?igsh=MWtseDJiNHpoZTF0NA==">@jubro_0605</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>
+						<div>SungKyunKwan University(SKKU) Lee Ju Hyoung</div>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | WordPress Theme by <a
+							href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+
+	<script src="js/main.js"></script>
+
 </body>
+
 </html>
